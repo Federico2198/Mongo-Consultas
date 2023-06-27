@@ -1,0 +1,11 @@
+// Conectarnos a una database
+use("sample_training")
+
+// Conectarnos a una coleccion
+db.zips
+
+// Metodos seguido de la colección
+.find({state: "NY"})
+
+// Metodo seguido a la colección y otro método
+.count()
